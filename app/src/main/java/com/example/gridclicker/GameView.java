@@ -23,7 +23,6 @@ public class GameView extends MainActivity{
 
     public GameView(GameModel m){
         buttons = new Button[4][4];
-        Button b = findViewById(R.id.restart);
         gameModel = m;
         numbers = new ArrayList<Integer>();
 
